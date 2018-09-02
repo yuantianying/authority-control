@@ -1,1 +1,1 @@
-"# authority-control" 
+# authority-control 
