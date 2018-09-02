@@ -1,7 +1,7 @@
 {
     "name": "forthend/authority-control",
     "description": "This is a authority control demo",
-    "type": "library",
+    "type": "project",
     "license": "MIT",
     "authors": [
         {
@@ -11,6 +11,7 @@
     ],
     "minimum-stability": "dev",
 	"require": {
+		"php": ">=7.1"
         "symfony/http-foundation": "^4.1",
         "symfony/routing": "^4.1",
         "symfony/http-kernel": "^4.1"
