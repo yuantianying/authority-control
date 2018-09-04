@@ -11,15 +11,9 @@
     ],
     "minimum-stability": "dev",
 	"require": {
-        "illuminate/database": "^5.6"
+        
     },
     "autoload": {
         "psr-4": { "": "src/" }
-    },
-    "repositories": {
-        "packagist": {
-            "type": "composer",
-            "url": "https://packagist.phpcomposer.com"
-        }
     }
 }
