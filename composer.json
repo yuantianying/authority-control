@@ -1,7 +1,7 @@
 {
     "name": "forthend/authority-control",
     "description": "This is a authority control demo",
-    "type": "project",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
@@ -11,13 +11,15 @@
     ],
     "minimum-stability": "dev",
 	"require": {
-        "php": ">=7.1",
-        "symfony/http-foundation": "^4.1",
-        "symfony/routing": "^4.1",
-        "symfony/http-kernel": "^4.1"
+        "illuminate/database": "^5.6"
     },
     "autoload": {
-        "psr-4": { "": "src/" },
-        "classmap": [ "app/AppKernel.php"]
+        "psr-4": { "forthend\\AuthorityControl\\": "src/" }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
     }
 }
