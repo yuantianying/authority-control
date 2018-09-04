@@ -14,7 +14,7 @@
         "illuminate/database": "^5.6"
     },
     "autoload": {
-        "psr-4": { "forthend\\AuthorityControl\\": "src/" }
+        "psr-4": { "": "src/" }
     },
     "repositories": {
         "packagist": {

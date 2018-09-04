@@ -1,5 +1,5 @@
 <?php
-namespace forthend\AuthorityControl\Model;
+namespace AuthorityControl\Model;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -16,5 +16,5 @@ class User extends Model
      *
      * @var bool
      */
-    public $timestamps = false;
+    public $timestamps = true;
 }

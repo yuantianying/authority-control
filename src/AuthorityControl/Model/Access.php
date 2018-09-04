@@ -1,5 +1,5 @@
 <?php
-namespace forthend\AuthorityControl\Model;
+namespace AuthorityControl\Model;
 
 use Illuminate\Database\Eloquent\Model;
 
